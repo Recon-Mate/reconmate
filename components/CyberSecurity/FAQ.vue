@@ -54,39 +54,52 @@
           <div class="col-lg-4">
             <div class="faq-form mt-5 mt-lg-0">
               <h4>Kirim Pertanyaan</h4>
-              <div class="form-group">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Your name"
-                />
-                <span class="icon"> <i class="fas fa-user"></i> </span>
-              </div>
-              <div class="form-group">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Email address"
-                />
-                <span class="icon"> <i class="fas fa-envelope"></i> </span>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject" />
-                <span class="icon"> <i class="fas fa-tag"></i> </span>
-              </div>
-              <div class="form-group">
-                <textarea
-                  name=""
-                  id=""
-                  rows="5"
-                  class="form-control"
-                  placeholder="Message"
-                ></textarea>
-                <span class="icon"> <i class="fas fa-pen"></i> </span>
-              </div>
-              <button class="butn w-100 bg-blue7 text-white border-0 rounded-3">
-                <span> send message </span>
-              </button>
+              <form class="form" @submit.prevent="handleFormSubmit">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your name"
+                    v-model="formData.name"
+                  />
+                  <span class="icon"> <i class="fas fa-user"></i> </span>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Email address"
+                    v-model="formData.email"
+                  />
+                  <span class="icon"> <i class="fas fa-envelope"></i> </span>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Subject"
+                    v-model="formData.subject"
+                  />
+                  <span class="icon"> <i class="fas fa-tag"></i> </span>
+                </div>
+                <div class="form-group">
+                  <textarea
+                    name=""
+                    id=""
+                    rows="5"
+                    class="form-control"
+                    placeholder="Message"
+                    v-model="formData.message"
+                  ></textarea>
+                  <span class="icon"> <i class="fas fa-pen"></i> </span>
+                </div>
+                <button
+                  type="submit"
+                  class="butn w-100 bg-blue7 text-white border-0 rounded-3"
+                >
+                  <span> send message </span>
+                </button>
+              </form>
             </div>
           </div>
         </div>
@@ -104,10 +117,30 @@ export default {
   data() {
     return {
       faqs,
+      formData: {
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      },
     };
   },
   components: {
     IntegrationCard,
+  },
+  methods: {
+    handleFormSubmit() {
+      const adminEmail = "novandirmdhn@gmail.com";
+      const body = `Hello,\nName: ${this.formData.name}\n${this.formData.message}\n\nThank you.`;
+
+      const mailtoLink = `mailto:${adminEmail}?subject=${encodeURIComponent(
+        this.formData.subject
+      )}&body=${encodeURIComponent(body)}`;
+
+      console.log(mailtoLink);
+
+      if (process.client) window.location.href = mailtoLink;
+    },
   },
 };
 </script>
