@@ -1,4 +1,5 @@
 # Local Netlify folder
 .netlify
+.nuxt
 dist
 node_modules
