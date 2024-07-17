@@ -1,0 +1,37 @@
+[
+  {
+    "name": "page-404",
+    "path": "/page-404",
+    "component": "/Users/ibnufachrizal/Downloads/reconmate-code/pages/page-404/index.vue",
+    "chunkName": "pages/page-404/index",
+    "_name": "_0fc7e884"
+  },
+  {
+    "name": "page-contact-5",
+    "path": "/page-contact-5",
+    "component": "/Users/ibnufachrizal/Downloads/reconmate-code/pages/page-contact-5/index.vue",
+    "chunkName": "pages/page-contact-5/index",
+    "_name": "_5c61b758"
+  },
+  {
+    "name": "page-contact-app",
+    "path": "/page-contact-app",
+    "component": "/Users/ibnufachrizal/Downloads/reconmate-code/pages/page-contact-app/index.vue",
+    "chunkName": "pages/page-contact-app/index",
+    "_name": "_49806640"
+  },
+  {
+    "name": "Writeups",
+    "path": "/Writeups",
+    "component": "/Users/ibnufachrizal/Downloads/reconmate-code/pages/Writeups/index.vue",
+    "chunkName": "pages/Writeups/index",
+    "_name": "_6f6cc43a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/ibnufachrizal/Downloads/reconmate-code/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_ee504eca"
+  }
+]
