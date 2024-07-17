@@ -181,7 +181,7 @@ export default {
   },
   methods: {
     handleFormSubmit() {
-      const adminEmail = "ibnufachrizal63@gmail.com";
+      const adminEmail = "ibnu.braincore@gmail.com";
       const body = `Hello,\n
         Name: ${this.formData.name}\n
         Phone Number: ${this.formData.email ?? "Not included"}\n

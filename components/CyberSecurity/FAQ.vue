@@ -130,7 +130,7 @@ export default {
   },
   methods: {
     handleFormSubmit() {
-      const adminEmail = "novandirmdhn@gmail.com";
+      const adminEmail = "ibnu.braincore@gmail.com";
       const body = `Hello,\nName: ${this.formData.name}\n${this.formData.message}\n\nThank you.`;
 
       const mailtoLink = `mailto:${adminEmail}?subject=${encodeURIComponent(
