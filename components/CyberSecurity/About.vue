@@ -1,5 +1,5 @@
 <template>
-  <section class="about style-10 section-padding">
+  <section id="about" class="about style-10 section-padding">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
@@ -26,12 +26,25 @@
         </div>
         <div class="col-lg-6">
           <div class="info">
-            <h2> From Zero to Hero </h2>
-            <p> Recon Mate mengumpulkan writeups, resources and content terkait ethical hacking, bug bounty hunting dan pentest untuk membantu kamu mencari dan mempelajari kerentanan terbaru dengan mudah.
+            <h2>From Zero to Hero</h2>
+            <p>
+              Recon Mate mengumpulkan writeups, resources and content terkait
+              ethical hacking, bug bounty hunting dan pentest untuk membantu
+              kamu mencari dan mempelajari kerentanan terbaru dengan mudah.
             </p>
-            <p> Tujuannya adalah untuk membantu pemula yang baru mulai di bidang cyber security untuk belajar lebih banyak ke sumber daya terbaru yang sudah ada. </p>
-            <a href="#0" class="btn btn-icon-circle rounded-pill bg-blue7 fw-bold text-white mt-50" target="_blank">
-              <small> Learn More <i class="fas fa-long-arrow-alt-right"></i> </small>
+            <p>
+              Tujuannya adalah untuk membantu pemula yang baru mulai di bidang
+              cyber security untuk belajar lebih banyak ke sumber daya terbaru
+              yang sudah ada.
+            </p>
+            <a
+              href="#0"
+              class="btn btn-icon-circle rounded-pill bg-blue7 fw-bold text-white mt-50"
+              target="_blank"
+            >
+              <small>
+                Learn More <i class="fas fa-long-arrow-alt-right"></i>
+              </small>
             </a>
           </div>
         </div>

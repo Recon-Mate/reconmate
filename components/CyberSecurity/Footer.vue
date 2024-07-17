@@ -11,9 +11,9 @@
           <div class="col-lg-6">
             <div class="links text-center">
               <a href="/" class="mx-4"> Home </a>
-              <a href="#" class="mx-4"> About </a>
-              <a href="#" class="mx-4"> FAQ </a>
-              <a href="#" class="mx-4"> Team </a>
+              <a href="/#about" class="mx-4"> About </a>
+              <a href="#faq" class="mx-4"> FAQ </a>
+              <a href="#team" class="mx-4"> Team </a>
               <a href="/page-contact-app" class="mx-4"> Contact </a>
             </div>
           </div>

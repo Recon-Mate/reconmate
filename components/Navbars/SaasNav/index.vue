@@ -17,17 +17,17 @@
             </NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink to="#" class="nav-link">
+            <NuxtLink to="/#about" class="nav-link">
               About
             </NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink to="#" class="nav-link">
+            <NuxtLink to="/#faq" class="nav-link">
               FAQ
             </NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink to="#" class="nav-link">
+            <NuxtLink to="/#team" class="nav-link">
               Team
             </NuxtLink>
           </li>
