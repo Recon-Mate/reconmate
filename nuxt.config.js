@@ -14,7 +14,8 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Recon Mate - Resource Cyber Security' },
       { name: 'keywords', content: 'Vue Nuxtjs Template Iteck Multi-Purpose themeforest' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'dicoding:email', content: 'ibnufachrizal63@gmail.com' } // Added meta tag
     ],
     link: [
       { rel: 'shortcut icon', sizes: '16x16', href: '/assets/img/fav.png' },
