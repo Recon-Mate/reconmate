@@ -13,9 +13,9 @@ export default {
       { httpEquiv: 'X-UA-Compatible', content: 'IE=edge' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Recon Mate - Resource Cyber Security' },
-      { name: 'keywords', content: 'Vue Nuxtjs Template Iteck Multi-Purpose themeforest' },
+      { name: 'keywords', content: 'temukan writeups, resources, dan content relevan untuk belajar keamanan siber' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'dicoding:email', content: 'ibnufachrizal63@gmail.com' } // Added meta tag
+      { name: 'dicoding:email', content: 'ibnufachrizal63@gmail.com' }
     ],
     link: [
       { rel: 'shortcut icon', sizes: '16x16', href: '/assets/img/fav.png' },
